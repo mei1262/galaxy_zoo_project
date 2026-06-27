@@ -1,0 +1,13 @@
+# 忽略巨大的原始数据文件夹
+data/
+
+# 忽略训练好的模型权重大文件（防止把好几百兆的权重传上去卡死）
+models/
+*.pth
+*.pt
+
+# 忽略 Python 缓存和 IDE 配置
+__pycache__/
+.ipynb_checkpoints/
+.idea/
+.vscode/
